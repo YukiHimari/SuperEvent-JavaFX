@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="600.0" style="-fx-background-color: #011627;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rmit.fp.LoginController">
+   <children>
+      <Pane layoutX="45.0" layoutY="143.0" prefHeight="125.0" prefWidth="244.0">
+         <children>
+            <Text fill="#f4f4f4" layoutX="43.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Super Event Booking System">
+               <font>
+                  <Font name="Britannic Bold" size="14.0" />
+               </font>
+            </Text>
+            <Circle fill="DODGERBLUE" layoutX="14.0" layoutY="73.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="23.0" layoutY="60.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#1274d0" layoutX="43.0" layoutY="55.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="19.0" layoutY="91.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#1274d0" layoutX="35.0" layoutY="101.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#1274d0" layoutX="52.0" layoutY="96.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#1274d0" layoutX="57.0" layoutY="67.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </Pane>
+      <Line endX="100.0" layoutX="376.0" layoutY="201.0" rotate="90.0" startX="-150.0" stroke="#465058" />
+      <TextField fx:id="usernameField" layoutX="383.0" layoutY="121.0" prefHeight="35.0" prefWidth="183.0" promptText="UserName" style="-fx-background-color: #011627; -fx-border-color: #1e90ff; -fx-text-fill: white; -fx-prompt-text-fill: white;" />
+      <PasswordField fx:id="passwordField" layoutX="383.0" layoutY="174.0" prefHeight="35.0" prefWidth="183.0" promptText="Password" style="-fx-background-color: #011627; -fx-border-color: #1e90ff; -fx-text-fill: white; -fx-prompt-text-fill: white;" />
+      <Button layoutX="385.0" layoutY="246.0" mnemonicParsing="false" onAction="#loginButtonClicked" prefHeight="35.0" prefWidth="183.0" style="-fx-background-color: #1e90ff;" text="LOGIN" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Text fill="#465058" layoutX="383.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forgot Password?" />
+      <Text fill="#465058" layoutX="531.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Signup" />
+   </children>
+</AnchorPane>
